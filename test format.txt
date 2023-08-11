@@ -1,0 +1,37 @@
+◆유저파트 테스트 양식
+
+▶회원가입 
+{
+ "name": "테스트",
+  "email": "test@gmail.com",
+  "userId": "test",
+  "password": "test123"
+}
+▶로그인 테스트
+{
+"email": "tesla@gmail.com",
+"password": "tesla123"
+}
+
+▶정보 변경
+{
+"password": "tesla123",
+"isAdmin": true
+}
+
+◆제품파트 테스트 양식
+
+▶제품 등록
+{
+   "name": "커피머신",
+   "category": "가전제품",
+   "imgUrl": "www.coffeemachine.com"
+}
+
+▶특정상품변경
+{
+   "name": "커피머신",
+   "category": "가전제품",
+   "imgUrl": "www.coffeemachine.com",
+   "description" : "본제품으로말할것같으면"
+}
